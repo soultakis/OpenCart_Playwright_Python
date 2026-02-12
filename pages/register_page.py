@@ -25,14 +25,19 @@ class RegisterPage:
     def enter_firstname(self):
         self.firstname_input.fill(self.random.get_firstname())
 
-    def enter_firstname_less_than_minimum(self):
-        self.firstname_input.fill(self.random.get_firstname_less_than_minimum())
-        self.click_continue()
+    def prepare_firstname_validation(self):
+        self.fill_all_fields()
+        self.accept_the_terms()
+        self.firstname_input.clear()
 
     def enter_firstname_minimum_characters(self):
         self.firstname_input.fill(self.random.get_firstname_minimum_characters())
         self.click_continue()
         return self.success_message.all(), self.successful_title
+
+    def enter_firstname_less_than_minimum(self):
+        self.firstname_input.fill(self.random.get_firstname_less_than_minimum())
+        self.click_continue()
 
     def enter_lastname(self):
         self.lastname_input.fill(self.random.get_lastname())
@@ -82,10 +87,10 @@ class RegisterPage:
         self.continue_button.click()
         # return self.terms_warning_message, self.firstname_error_message
 
-    def prepare_firstname_validation(self):
+    def validate_each_field_that_is_empty(self):
         self.fill_all_fields()
         self.accept_the_terms()
-        self.firstname_input.clear()
+        
 
 
 
