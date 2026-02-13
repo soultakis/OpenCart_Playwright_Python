@@ -6,11 +6,8 @@ from pages.user_homepage import UserHomePage
 
 def test_login_happy_path(page:Page, go_to_login_page):
     login_page = go_to_login_page
-    login_page.login_success()
+    login_page.login_procedure(valid_email, valid_password)
     user_homepage = UserHomePage(page)
-    list_texts = user_homepage.verify_user_logged_in()
+    list_texts = user_homepage.read_successful_logged_in_messages()
     for i in range(len(list_texts)):
-        assert list_texts[i] == user_logged_in_titles[i]
-
-
-
+        expect(list_texts[i]).to_have_text(user_logged_in_titles[i])
