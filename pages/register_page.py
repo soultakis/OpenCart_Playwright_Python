@@ -30,14 +30,20 @@ class RegisterPage:
         self.accept_the_terms()
         self.firstname_input.clear()
 
-    def enter_firstname_minimum_characters(self):
-        self.firstname_input.fill(self.random.get_firstname_minimum_characters())
+    def enter_firstname_number_of_characters(self, number):
+        self.firstname_input.fill(self.random.get_firstname_set_number_of_characters(number))
         self.click_continue()
         return self.success_message.all(), self.successful_title
 
-    def enter_firstname_less_than_minimum(self):
-        self.firstname_input.fill(self.random.get_firstname_less_than_minimum())
-        self.click_continue()
+
+    # def enter_firstname_minimum_characters(self):
+    #     self.firstname_input.fill(self.random.get_firstname_minimum_characters())
+    #     self.click_continue()
+    #     return self.success_message.all(), self.successful_title
+
+    # def enter_firstname_less_than_minimum(self):
+    #     self.firstname_input.fill(self.random.get_firstname_less_than_minimum())
+    #     self.click_continue()
 
     def enter_lastname(self):
         self.lastname_input.fill(self.random.get_lastname())

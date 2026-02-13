@@ -7,6 +7,10 @@ class RandomData:
     def get_firstname(self):
         return self.faker.first_name()
 
+    def get_firstname_set_number_of_characters(self, number):
+        # the random_letters returns a list of characters so it needs to be converted to a string
+        return ''.join(self.faker.random_letters(length=number))
+
     def get_firstname_less_than_minimum(self):
         # the random_letters returns a list of characters so it needs to be converted to a string
         return ''.join(self.faker.random_letters(length=2))
