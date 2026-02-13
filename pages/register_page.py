@@ -35,16 +35,6 @@ class RegisterPage:
         self.click_continue()
         return self.success_message.all(), self.successful_title
 
-
-    # def enter_firstname_minimum_characters(self):
-    #     self.firstname_input.fill(self.random.get_firstname_minimum_characters())
-    #     self.click_continue()
-    #     return self.success_message.all(), self.successful_title
-
-    # def enter_firstname_less_than_minimum(self):
-    #     self.firstname_input.fill(self.random.get_firstname_less_than_minimum())
-    #     self.click_continue()
-
     def enter_lastname(self):
         self.lastname_input.fill(self.random.get_lastname())
 
