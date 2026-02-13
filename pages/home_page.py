@@ -8,3 +8,5 @@ class HomePage:
         self.my_account_dropdown = self.page.locator("a[title='My Account']")
         self.login_button = self.page.locator("//a[text()='Login']")
         self.register_button = self.page.locator("//a[text()='Register']")
+
+

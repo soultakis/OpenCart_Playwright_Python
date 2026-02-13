@@ -79,13 +79,13 @@ class RegisterPage:
         self.accept_the_terms()
         self.click_continue()
 
-    def submit_empty_form(self):
-        self.continue_button.click()
-        # return self.terms_warning_message, self.firstname_error_message
+    # def submit_empty_form(self):
+    #     self.continue_button.click()
+    #     # return self.terms_warning_message, self.firstname_error_message
 
-    def validate_each_field_that_is_empty(self):
-        self.fill_all_fields()
-        self.accept_the_terms()
+    # def validate_each_field_that_is_empty(self):
+    #     self.fill_all_fields()
+    #     self.accept_the_terms()
         
 
 

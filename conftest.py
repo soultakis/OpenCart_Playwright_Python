@@ -23,5 +23,6 @@ def go_to_login_page(page: Page):
     home_page = HomePage(page)
     home_page.my_account_dropdown.click()
     home_page.login_button.click()
+    expect(page).to_have_url(login_url)
     login_page = LoginPage(page)
     return login_page

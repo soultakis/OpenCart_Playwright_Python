@@ -6,7 +6,7 @@ from pages.registration_error_locators import RegistrationErrorLocators
 
 def test_register_submit_empty_form(page: Page, go_to_register_page):
     register_page = go_to_register_page
-    register_page.submit_empty_form()
+    register_page.click_continue()
     registration_errors = RegistrationErrorLocators(page)
 
     expect(page).to_have_url(registration_page_url)
