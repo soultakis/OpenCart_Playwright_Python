@@ -18,6 +18,14 @@ def test_register_submit_empty_form(page: Page, go_to_register_page):
     expect(registration_errors.password_error_message).to_have_text(registration_password_error_message)
 
 
-# def test_validate_empty_fields(page: Page, go_to_register_page):
-#     register_page = go_to_register_page
-#     register_page.validate_each_field_that_is_empty()
+def test_validate_do_not_accept_terms(page: Page, go_to_register_page):
+    register_page = go_to_register_page
+    register_page.fill_all_fields()
+    register_page.click_continue()
+    expect(page).to_have_url(registration_page_url)
+    expect(register_page.terms_warning_message).to_have_text(registration_terms_warning_message)
+
+def test_validate_each_field_is_empty(page: Page, go_to_register_page):
+    register_page = go_to_register_page
+    register_page.fill_all_fields()
+
