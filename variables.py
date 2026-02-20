@@ -1,10 +1,11 @@
+# URLs
 base_url = "https://tutorialsninja.com/demo/"
-
 login_url = "https://tutorialsninja.com/demo/index.php?route=account/login"
-
-# Registration page URL
 registration_success_url = "https://tutorialsninja.com/demo/index.php?route=account/success"
 registration_page_url = "https://tutorialsninja.com/demo/index.php?route=account/register"
+forgotten_password_url = "https://tutorialsninja.com/demo/index.php?route=account/forgotten"
+
+
 
 # valid login credentials
 valid_email = "soultakis@gmail.com"
@@ -44,6 +45,7 @@ registration_password_error_message = "Password must be between 4 and 20 charact
 
 # Login error message
 login_invalid_credentials_error_message = "Warning: No match for E-Mail Address and/or Password."
+
 
 
 

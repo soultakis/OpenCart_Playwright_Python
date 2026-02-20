@@ -7,9 +7,8 @@ class MyAccount:
         self.page.locator("#content h2")
 
 
-
     def read_successful_logged_in_messages(self):
         locators_list = self.page.locator("#content h2").all()
         return locators_list
 
-    # def right_side_menu_list(self):
+
