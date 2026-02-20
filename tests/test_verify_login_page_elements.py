@@ -1,5 +1,5 @@
 from playwright.sync_api import Page, expect
-from constants.login_page_constants import *
+from constants.login_constants import *
 from conftest import go_to_login_page
 
 def test_verify_login_page_right_side_menu_items(page: Page, go_to_login_page):

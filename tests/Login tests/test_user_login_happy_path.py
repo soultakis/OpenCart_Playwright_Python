@@ -1,5 +1,5 @@
 from playwright.sync_api import Page, expect
-from variables import *
+from constants.login_constants import *
 from conftest import go_to_login_page
 from pages.my_account import MyAccount
 
