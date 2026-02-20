@@ -25,7 +25,3 @@ def test_validate_do_not_accept_terms(page: Page, go_to_register_page):
     expect(page).to_have_url(registration_page_url)
     expect(register_page.terms_warning_message).to_have_text(registration_terms_warning_message)
 
-def test_validate_each_field_is_empty(page: Page, go_to_register_page):
-    register_page = go_to_register_page
-    register_page.fill_all_fields()
-

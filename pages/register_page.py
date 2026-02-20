@@ -31,12 +31,22 @@ class RegisterPage:
         self.firstname_input.clear()
 
     def enter_firstname_number_of_characters(self, number):
-        self.firstname_input.fill(self.random.get_firstname_set_number_of_characters(number))
+        self.firstname_input.fill(self.random.get_specific_number_of_characters(number))
+        self.click_continue()
+        return self.success_message.all(), self.successful_title
+
+    def enter_lastname_number_of_characters(self, number):
+        self.lastname_input.fill(self.random.get_specific_number_of_characters(number))
         self.click_continue()
         return self.success_message.all(), self.successful_title
 
     def enter_lastname(self):
         self.lastname_input.fill(self.random.get_lastname())
+
+    def prepare_lastname_validation(self):
+        self.fill_all_fields()
+        self.accept_the_terms()
+        self.lastname_input.clear()
 
     def enter_email(self):
         self.email_input.fill(self.random.get_email())
