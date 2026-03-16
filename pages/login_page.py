@@ -1,5 +1,4 @@
 from playwright.sync_api import Page
-from variables import *
 
 class LoginPage:
     def __init__(self, page: Page):

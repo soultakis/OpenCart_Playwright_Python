@@ -1,20 +1,3 @@
-# URLs
-base_url = "https://tutorialsninja.com/demo/"
-login_url = "https://tutorialsninja.com/demo/index.php?route=account/login"
-registration_success_url = "https://tutorialsninja.com/demo/index.php?route=account/success"
-registration_page_url = "https://tutorialsninja.com/demo/index.php?route=account/register"
-forgotten_password_url = "https://tutorialsninja.com/demo/index.php?route=account/forgotten"
-
-
-
-# valid login credentials
-valid_email = "soultakis@gmail.com"
-valid_password = "Test1234!@"
-
-# Invalid login credentials
-invalid_email = "papapa@gmail.com"
-invalid_password = "test677"
-
 # Registration input fields rules
 min_name_length_input = 1
 max_name_length_input = 32
@@ -24,8 +7,6 @@ max_telephone_length_input = 32
 min_password_length_input = 4
 max_password_length_input = 20
 
-# Success log in messages
-user_logged_in_titles = ["My Account", "My Orders", "My Affiliate Account", "Newsletter"]
 
 # Registration success page
 registration_success_messages = ["Congratulations! Your new account has been successfully created!",
@@ -42,10 +23,4 @@ registration_lastname_error_message = "Last Name must be between 1 and 32 charac
 registration_email_error_message = "E-Mail Address does not appear to be valid!"
 registration_telephone_error_message = "Telephone must be between 3 and 32 characters!"
 registration_password_error_message = "Password must be between 4 and 20 characters!"
-
-# Login error message
-login_invalid_credentials_error_message = "Warning: No match for E-Mail Address and/or Password."
-
-
-
 

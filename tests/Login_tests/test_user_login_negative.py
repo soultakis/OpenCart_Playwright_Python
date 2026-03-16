@@ -1,5 +1,5 @@
 from playwright.sync_api import expect
-from variables import *
+from constants.login_constants import *
 from conftest import go_to_login_page
 
 def test_login_empty_email_and_password(go_to_login_page):

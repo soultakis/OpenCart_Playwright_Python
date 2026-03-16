@@ -1,1 +1,2 @@
-top_menu_items = ["Desktops", "Laptops"]
+top_menu_items = ["Desktops", "Laptops & Notebooks", "Components", "Tablets",
+                  "Software", "Phones & PDAs", "Cameras", "MP3 Players"]

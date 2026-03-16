@@ -1,6 +1,6 @@
 from playwright.sync_api import Page, expect
 from conftest import go_to_register_page
-from variables import *
+from constants.registration_constants import *
 from pages.registration_error_locators import RegistrationErrorLocators
 
 
