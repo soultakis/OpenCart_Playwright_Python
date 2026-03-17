@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Playwright Python OpenCart project.iml" filepath="$PROJECT_DIR$/.idea/Playwright Python OpenCart project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Playwright_Python_OpenCart_Project.iml" filepath="$PROJECT_DIR$/.idea/Playwright_Python_OpenCart_Project.iml" />
     </modules>
   </component>
 </project>
