@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd1a1230-e7ff-4892-9e90-2ca0a5b271b4" name="Changes" comment="Added the pytest-playwright plugin">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/playwright.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/register_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/register_page.py" afterDir="false" />
-    </list>
+    <list default="true" id="bd1a1230-e7ff-4892-9e90-2ca0a5b271b4" name="Changes" comment="Added the yml github action file to run the project in the github" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773750731380</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added the yml github action file to run the project in the github">
+      <option name="closed" value="true" />
+      <created>1775549822173</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775549822173</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +171,7 @@
     <MESSAGE value="added the requirements file" />
     <MESSAGE value="Moved the requirements file to the root" />
     <MESSAGE value="Added the pytest-playwright plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the pytest-playwright plugin" />
+    <MESSAGE value="Added the yml github action file to run the project in the github" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the yml github action file to run the project in the github" />
   </component>
 </project>
