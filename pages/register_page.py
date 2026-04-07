@@ -76,7 +76,7 @@ class RegisterPage:
         password = self.enter_password()
         self.confirm_password(password)
 
-    def submit_registration_form(self, subscribe = False):
+    def submit_registration_form(self, subscribe):
         self.fill_all_fields()
         if subscribe:
             self.yes_bullet.check()
