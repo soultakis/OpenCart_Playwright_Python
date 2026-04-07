@@ -8,6 +8,8 @@ jobs:
   playwright:
     name: 'Playwright Tests'
     runs-on: ubuntu-latest
+    env:
+      PLAYWRIGHT_BROWSERS_PATH: 0
     container:
       image: mcr.microsoft.com/playwright/python:v1.55.0-noble
       options: --user 1001

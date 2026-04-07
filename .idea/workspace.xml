@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd1a1230-e7ff-4892-9e90-2ca0a5b271b4" name="Changes" comment="Added python version 3.12">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/playwright.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/playwright.yml" afterDir="false" />
-    </list>
+    <list default="true" id="bd1a1230-e7ff-4892-9e90-2ca0a5b271b4" name="Changes" comment="Added command to install Playwright browsers" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,7 +201,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775550651224</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added command to install Playwright browsers">
+      <option name="closed" value="true" />
+      <created>1775550918936</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775550918936</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added command to install Playwright browsers">
+      <option name="closed" value="true" />
+      <created>1775551085952</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775551085952</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +232,7 @@
     <MESSAGE value="Put the 3.13 version for python-version" />
     <MESSAGE value="Added the install pytest" />
     <MESSAGE value="Added python version 3.12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added python version 3.12" />
+    <MESSAGE value="Added command to install Playwright browsers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added command to install Playwright browsers" />
   </component>
 </project>
