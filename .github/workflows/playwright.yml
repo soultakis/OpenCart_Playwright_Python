@@ -22,6 +22,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           python -m pytest
-          python -m playwright install
+          python -m playwright install --with-deps
       - name: Run your tests
         run: pytest
