@@ -8,8 +8,6 @@ jobs:
   playwright:
     name: 'Playwright Tests'
     runs-on: ubuntu-latest
-    env:
-      PLAYWRIGHT_BROWSERS_PATH: 0
     container:
       image: mcr.microsoft.com/playwright/python:v1.55.0-noble
       options: --user 1001
@@ -23,7 +21,5 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          python -m pytest
-          python -m playwright install --with-deps
       - name: Run your tests
-        run: pytest
+        run: python -m pytest
