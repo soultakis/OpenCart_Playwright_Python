@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd1a1230-e7ff-4892-9e90-2ca0a5b271b4" name="Changes" comment="Added the fix for pytest not found">
+    <list default="true" id="bd1a1230-e7ff-4892-9e90-2ca0a5b271b4" name="Changes" comment="Added python version 3.12">
       <change beforePath="$PROJECT_DIR$/.github/workflows/playwright.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/playwright.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +171,39 @@
       <option name="project" value="LOCAL" />
       <updated>1775550274474</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Put the 3.13 version for python-version">
+      <option name="closed" value="true" />
+      <created>1775550433624</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1775550433624</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Put the 3.13 version for python-version">
+      <option name="closed" value="true" />
+      <created>1775550442895</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1775550442895</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added the install pytest">
+      <option name="closed" value="true" />
+      <created>1775550557246</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1775550557246</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added python version 3.12">
+      <option name="closed" value="true" />
+      <created>1775550651224</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1775550651224</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +215,9 @@
     <MESSAGE value="Added the pytest-playwright plugin" />
     <MESSAGE value="Added the yml github action file to run the project in the github" />
     <MESSAGE value="Added the fix for pytest not found" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the fix for pytest not found" />
+    <MESSAGE value="Put the 3.13 version for python-version" />
+    <MESSAGE value="Added the install pytest" />
+    <MESSAGE value="Added python version 3.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added python version 3.12" />
   </component>
 </project>
